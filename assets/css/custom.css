@@ -1,0 +1,30 @@
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:1.75em;text-align:left;margin-top:2.5em}
+.projects article{background:rgba(0,0,0,.3);border-radius:6px;overflow:hidden;display:flex;flex-direction:column;border-top:4px solid #3fd0c4;transition:transform .2s}
+.projects article:hover{transform:translateY(-4px)}
+.projects article[data-cat=llm]{border-top-color:#9b8cff}
+.projects article[data-cat=cust]{border-top-color:#f5b04c}
+.projects img{display:block;width:100%;height:auto}
+.projects .body{padding:1.4em 1.6em 1.7em;display:flex;flex-direction:column;flex:1}
+.projects h3{margin:0 0 .15em;font-size:1.15em}
+.projects .kind{font-size:.8em;opacity:.8;margin:0 0 .9em}
+.projects p{margin:0 0 1em;line-height:1.55}
+.projects .stack{font-size:.82em;opacity:.8;margin-top:auto}
+.projects .link{margin-top:1em;font-weight:600;color:#3fd0c4}
+dl.exp{margin:0;text-align:left}
+dl.exp dt{font-weight:700;margin-top:1.1em}
+dl.exp dt:first-child{margin-top:0}
+dl.exp dd{margin:.15em 0 0;opacity:.9;line-height:1.5}
+.focus{margin:1.2em 0 0;padding:0;list-style:none;text-align:left}
+.focus li{margin:.7em 0;line-height:1.5}
+#intro .avatar{position:relative;width:170px;height:170px;margin:0 auto 1.4em;border-radius:50%;border:4px solid #3fd0c4;background:linear-gradient(135deg,#3fd0c4,#9b8cff);overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:3em;font-weight:700;color:#14232f}
+#intro .avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.chips{display:flex;flex-wrap:wrap;gap:.5em;justify-content:center;list-style:none;padding:0;margin:1.2em 0 1.8em}
+.chips li{padding:.3em .85em;border-radius:99px;background:rgba(255,255,255,.16);font-size:.85em}
+#work.main.style3.primary{background:linear-gradient(160deg,#14232f,#244a5c)}
+#contact.main.style3.secondary{background:linear-gradient(160deg,#1b6f6a,#3f5fb0)}
+.filters{display:flex;flex-wrap:wrap;gap:.6em;justify-content:center;margin-top:2em}
+.filters button{cursor:pointer;border:1px solid rgba(255,255,255,.35);background:transparent;color:#fff;border-radius:99px;padding:.55em 1.3em;font-size:.9em;line-height:1.2;height:auto}
+.filters button.on{background:#3fd0c4;border-color:#3fd0c4;color:#14232f;font-weight:700}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}.projects article{transition:none}}
+.projects .demo{margin-left:1.3em}
+.projects img{aspect-ratio:16/10;object-fit:cover}

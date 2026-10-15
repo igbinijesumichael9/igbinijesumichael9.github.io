@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Michael Igbinijesu | Data Scientist and ML Engineer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Portfolio of Michael Igbinijesu, data scientist and machine learning engineer." />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+	<!-- Header -->
+			<header id="header">
+				<h1>Michael Igbinijesu</h1>
+				<nav><ul>
+					<li><a href="#intro">Intro</a></li>
+					<li><a href="#one">What I Do</a></li>
+					<li><a href="#two">Experience</a></li>
+					<li><a href="#work">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul></nav>
+			</header>
+
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<div class="avatar"><span>AE</span><img src="images/profile.jpg" alt="Michael Igbinijesu" onerror="this.remove()" /></div>
+					<header><h2>Michael Igbinijesu</h2></header>
+					<p>Data Scientist and Machine Learning Engineer<br />
+					Nearly seven years building machine learning, computer vision and LLM systems for banking and customer analytics, from fraud scoring to production APIs.</p>
+					<ul class="chips"><li>Python</li><li>SQL</li><li>scikit-learn</li><li>XGBoost</li><li>TensorFlow</li><li>PyTorch</li><li>Computer Vision</li><li>LangChain</li><li>Kafka</li><li>FastAPI</li><li>Docker</li><li>MLflow</li><li>SHAP</li></ul>
+					<footer><a href="#work" class="button style2 down">See my projects</a></footer>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header><h2>What I Do</h2></header>
+					<p>I take a business problem from raw data to a model people can use and trust.</p>
+					<ul class="focus">
+						<li><strong>Machine learning.</strong> Gradient boosting (XGBoost, LightGBM), random forests, SVMs, logistic regression, clustering, time-series forecasting and recommenders, chosen per problem by benchmarking.</li>
+						<li><strong>Deep learning and computer vision.</strong> TensorFlow, Keras and PyTorch. CNNs, object detection with YOLOv8, image classification and face recognition.</li>
+						<li><strong>Production ML.</strong> Real-time fraud and AML scoring, churn, credit risk and loan eligibility models in banking.</li>
+						<li><strong>LLM systems.</strong> RAG pipelines and evaluation frameworks for LLM outputs.</li>
+						<li><strong>Engineering.</strong> Python, SQL, FastAPI, Kafka, Docker, MLflow, GitHub Actions and Git.</li>
+					</ul>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header><h2>Experience</h2></header>
+					<dl class="exp">
+						<dt>Python Engineer and AI Evaluation Contractor, Turing</dt><dd>Sept 2025 to Mar 2026. Python backends and LLM output validation in Docker.</dd>
+						<dt>Data Scientist, CimSpace Ng. Ltd</dt><dd>May 2024 to June 2025. Churn, recommendation and segmentation models, plus A/B tests.</dd>
+						<dt>Independent ML Consultant</dt><dd>Late 2023. AML platform prototype for an individual client.</dd>
+						<dt>Data Scientist, Diamond Bank plc</dt><dd>Dec 2020 to May 2024. Joined as an intern and promoted after a year. Built fraud and AML scoring, churn, credit risk and forecasting, and mentored interns.</dd>
+						<dt>Data Analyst, Dotmac Fiber</dt><dd>Nov 2019 to Nov 2020. KPI dashboards and analysis for marketing and sales.</dd>
+					</dl>
+					<p style="margin-top:1.4em">B.Eng. Petroleum Engineering, University of Benin. IBM Data Scientist Professional Certificate.</p>
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>Projects</h2>
+						<p>Fourteen projects: thirteen personal builds and one client prototype. My production work at Diamond Bank and CimSpace is private, so it appears under Experience only.</p>
+					</header>
+					<div class="filters"><button class="on" data-f="all">All projects</button><button data-f="risk">Fraud and risk</button><button data-f="llm">Deep learning, vision and LLMs</button><button data-f="cust">Customers and forecasting</button></div>
+					<div class="projects">
+<article data-cat="risk"><img src="images/projects/fraud.jpg" alt="Real-Time Fraud Detection Pipeline illustration" loading="lazy"/><div class="body"><h3>Real-Time Fraud Detection Pipeline</h3><p class="kind">Personal project</p><p>Transactions stream through Kafka and are scored one by one by an XGBoost model. Evaluated on ROC-AUC, precision, recall and F1, and served through an API.</p><p class="stack">XGBoost, scikit-learn, Kafka, FastAPI, Docker Compose</p><a class="link" href="https://github.com/igbinijesumichael9/fraud_detection_system">View on GitHub</a></div></article>
+<article data-cat="risk"><img src="images/projects/Aml.jpg" alt="AML Risk Intelligence Platform illustration" loading="lazy"/><div class="body"><h3>AML Risk Intelligence Platform</h3><p class="kind">Freelance prototype, late 2023</p><p>Built for an individual client. A rule engine and ML classifier score transactions, graph analytics find suspicious communities, and SHAP explains each score. Six-page dashboard for investigators.</p><p class="stack">Python, graph analytics, SHAP, Streamlit</p><a class="link" href="https://github.com/igbinijesumichael9">View on GitHub</a></div></article>
+<article data-cat="risk"><img src="images/projects/loan.jpg" alt="Loan Eligibility Checker illustration" loading="lazy"/><div class="body"><h3>Loan Eligibility Checker</h3><p class="kind">Personal project</p><p>End-to-end analysis of loan data, ending in a gradient boosting classifier that supports approve or decline decisions. The repository includes the datasets and the saved model.</p><p class="stack">scikit-learn, Gradient Boosting</p><a class="link" href="https://github.com/igbinijesumichael9/Loan-Eligibility-Checker">View on GitHub</a></div></article>
+<article data-cat="risk"><img src="images/projects/pricing.jpg" alt="Insurance Pricing and Risk Intelligence illustration" loading="lazy"/><div class="body"><h3>Insurance Pricing and Risk Intelligence</h3><p class="kind">Personal project</p><p>Claim-cost model with an R-squared of 0.90 and MAE of $2,435. Caught an under-pricing bias in a log-target variant and shipped the raw-target model, which cut regional disparity from $1,301 to $556. Adds SHAP explanations, 90% conformal intervals and a fairness audit.</p><p class="stack">Random Forest, SHAP, FastAPI, Docker, GitHub Actions</p><a class="link" href="https://github.com/igbinijesumichael9/insurance-pricing-ml">View on GitHub</a><a class="link demo" href="https://insurance-pricing-ml-jxxzmtjvyvgbix3layjyox.streamlit.app/">Live demo</a></div></article>
+<article data-cat="risk"><img src="images/projects/credit.jpg" alt="Credit Risk Decisioning System illustration" loading="lazy"/><div class="body"><h3>Credit Risk Decisioning System</h3><p class="kind">Personal project, Give Me Some Credit dataset</p><p>Default model on 150K borrowers with ROC-AUC 0.865 and PR-AUC 0.409. A cost-based threshold cut expected loss about 25% against the default 0.5 cutoff in its cost model. The scoring API returns SHAP reason codes, backed by MLflow tracking and fairness checks.</p><p class="stack">LightGBM, SHAP, MLflow, FastAPI, Streamlit, Docker</p><a class="link" href="https://github.com/igbinijesumichael9/credit-risk-decisioning">View on GitHub</a><a class="link demo" href="https://credit-risk-decisioning-42aqunkforj5zxucgk6nql.streamlit.app/">Live demo</a></div></article>
+<article data-cat="llm"><img src="images/projects/rag.jpg" alt="LLM-Powered RAG Chatbot illustration" loading="lazy"/><div class="body"><h3>LLM-Powered RAG Chatbot</h3><p class="kind">Personal project</p><p>Ingests PDFs, chunks and embeds them, retrieves the relevant passages and answers questions from that context.</p><p class="stack">LangChain, HuggingFace embeddings, ChromaDB, FastAPI, Streamlit</p><a class="link" href="https://github.com/igbinijesumichael9/rag_chatbot_system">View on GitHub</a></div></article>
+<article data-cat="llm"><img src="images/projects/cv.jpg" alt="Multimodal Computer Vision Platform illustration" loading="lazy"/><div class="body"><h3>Multimodal Computer Vision Platform</h3><p class="kind">Personal project</p><p>One interface for object detection, image classification and face recognition, returning labels, confidence scores and annotated images. Uses pretrained models.</p><p class="stack">YOLOv8 (PyTorch-based), ResNet50, Dlib, FastAPI, Streamlit, Docker</p><a class="link" href="https://github.com/igbinijesumichael9/multimodal-computer-vision-platform">View on GitHub</a></div></article>
+<article data-cat="llm"><img src="images/projects/rice.jpg" alt="Rice Type Classification illustration" loading="lazy"/><div class="body"><h3>Rice Type Classification</h3><p class="kind">Personal project</p><p>Classifies about 74,000 grain images into 5 types. Compared three networks and picked the smaller CNN: best test accuracy of the three at 55 ms per step, against about 87% for the plain ANN.</p><p class="stack">TensorFlow, Keras, CNN, ANN</p><a class="link" href="https://github.com/igbinijesumichael9">View on GitHub</a></div></article>
+<article data-cat="cust"><img src="images/projects/sales.jpg" alt="Sales Forecasting Platform illustration" loading="lazy"/><div class="body"><h3>Sales Forecasting Platform</h3><p class="kind">Personal project, Favorita retail data</p><p>Daily forecasts for 1,782 store and product-family series from 3M+ records. Reached 11.5% WAPE on a 90-day holdout, 37% better than the seasonal baseline, with 80% prediction intervals that covered 82% of actuals.</p><p class="stack">XGBoost, quantile regression, FastAPI, Streamlit, Docker Compose, PSI drift monitoring</p><a class="link" href="https://github.com/igbinijesumichael9/sales-forecasting">View on GitHub</a><a class="link demo" href="https://sales-forecasting-xciseueerznvnpvgp6yoje.streamlit.app/">Live demo</a></div></article>
+<article data-cat="cust"><img src="images/projects/recsys.jpg" alt="Recommender System illustration" loading="lazy"/><div class="body"><h3>Recommender System</h3><p class="kind">Personal project, Amazon electronics reviews</p><p>Compared user-user and item-item collaborative filtering with SVD. Tuned SVD reached an RMSE of 0.92, while user-user filtering gave about 86% precision at k=5.</p><p class="stack">scikit-learn, SVD, KNN</p><a class="link" href="https://github.com/igbinijesumichael9">View on GitHub</a></div></article>
+<article data-cat="cust"><img src="images/projects/churn.jpg" alt="Customer Churn ML System illustration" loading="lazy"/><div class="body"><h3>Customer Churn ML System</h3><p class="kind">Personal project</p><p>Modular pipeline covering ingestion, validation, feature engineering, training, an overfitting check and batch inference, with a FastAPI prediction endpoint in Docker.</p><p class="stack">Logistic Regression, scikit-learn, FastAPI, Docker</p><a class="link" href="https://github.com/igbinijesumichael9/customer-churn-ml-system">View on GitHub</a></div></article>
+<article data-cat="cust"><img src="images/projects/attrition.jpg" alt="Employee Attrition Prediction illustration" loading="lazy"/><div class="body"><h3>Employee Attrition Prediction</h3><p class="kind">Personal project</p><p>Five models with class weights for imbalanced data. SVM had the best recall, tuned Random Forest the best balance of precision and F1. Overtime, income and age ranked as top drivers.</p><p class="stack">scikit-learn, GridSearchCV</p><a class="link" href="https://github.com/igbinijesumichael9">View on GitHub</a></div></article>
+<article data-cat="cust"><img src="images/projects/segments.jpg" alt="Credit Card Customer Segmentation illustration" loading="lazy"/><div class="body"><h3>Credit Card Customer Segmentation</h3><p class="kind">Personal project</p><p>Segmented bank customers by spending and channel use. K-means and GMM performed best of five clustering models, guiding targeted marketing.</p><p class="stack">K-means, GMM, PCA</p><a class="link" href="https://github.com/igbinijesumichael9/credit-card-segmentation">View on GitHub</a></div></article>
+<article data-cat="cust"><img src="images/projects/bess.svg" alt="Battery Storage Price Forecasting illustration" loading="lazy"/><div class="body"><h3>Battery Storage Price Forecasting</h3><p class="kind">Personal project</p><p>Tuned ARIMA cut forecast error (MSE) from about 408 to 104. Forecasts were used to plan battery charge and discharge and to pick a two-week low-risk rest window.</p><p class="stack">ARIMA, SARIMA, Python</p><a class="link" href="https://github.com/igbinijesumichael9">View on GitHub</a></div></article>
+					</div>
+<script>document.querySelectorAll(".filters button").forEach(function(b){b.onclick=function(){document.querySelectorAll(".filters button").forEach(function(x){x.classList.remove("on")});b.classList.add("on");document.querySelectorAll(".projects article").forEach(function(a){a.style.display=(b.dataset.f=="all"||a.dataset.cat==b.dataset.f)?"":"none"})}});</script>
+				</div>
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Get in touch</h2>
+						<p>Open to remote senior data science and machine learning engineering roles.</p>
+					</header>
+					<ul class="actions special">
+						<li><a href="mailto:igbinijesumichael9@gmail.com" class="button">Email me</a></li>
+						<li><a href="https://www.linkedin.com/in/michaeligbinijesu/" class="button">LinkedIn</a></li>
+						<li><a href="https://github.com/igbinijesumichael9" class="button">GitHub</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/michaeligbinijesu/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/igbinijesumichael9" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="mailto:igbinijesumichael9@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="menu">
+					<li>&copy; Michael Igbinijesu</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
